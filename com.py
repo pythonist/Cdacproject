@@ -20,7 +20,7 @@ from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__,template_folder='templates')
 
-model = load_model('E:/Combination/models/model_pneum.h5')
+model = load_model('model_pneum.h5')
 
 model1= load_model('E:/Combination/models/model.h5')     
 
